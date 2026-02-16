@@ -1,5 +1,11 @@
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+} else {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+}
 // 1. SCROLL ANIMATION (Intersection Observer)
-// This creates that smooth "fade in up" look as you scroll down
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -21,6 +27,36 @@ function scrollCerts(direction) {
         container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
     } else {
         container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+}
+
+const projectData = {
+    helium: {
+        title: "Helium OS",
+        img: "https://placehold.co/600x400/1a1a1a/FFF?text=Helium+OS",
+        desc: "Helium OS is an AI-powered security layer designed for Linux environments. It actively monitors CPU behavior to detect side-channel attacks (like Spectre/Meltdown) in real-time. By utilizing PyTorch and TensorFlow models, it dynamically adjusts system resources to mitigate threats while maintaining less than 5% performance overhead."
+    },
+    nano: {
+        title: "Nano-pesu",
+        img: "https://placehold.co/600x400/1a1a1a/FFF?text=Nano-pesu",
+        desc: "A specialized AI educational platform built for university students. Unlike generic AI wrappers, Nano-pesu is fine-tuned on specific university syllabi and past exam papers to provide relevant, curriculum-aligned answers. I worked on the Backend Team using FastAPI and Transformers to handle the retrieval-augmented generation (RAG) pipeline."
+    },
+    task: {
+        title: "Task Scheduler",
+        img: "https://placehold.co/600x400/1a1a1a/FFF?text=Task+Scheduler",
+        desc: "A high-performance task management system written in C. It uses a custom MinHeap data structure to efficiently manage task priorities and a Hash Map for O(1) lookups. This project demonstrates low-level memory management and algorithm optimization for real-time scheduling scenarios."
+    },
+    chat: {
+        title: "G-M8 Chat",
+        img: "https://placehold.co/600x400/1a1a1a/FFF?text=G-M8+Chat",
+        desc: "A full-stack real-time messaging application. Built with Node.js and Express for the backend, it leverages Socket.io for instant bi-directional communication. The frontend is React-based, ensuring a smooth user experience, while MongoDB handles persistent message storage."
+    }
+};
+
+function openProject(projectKey) {
+    const data = projectData[projectKey];
+    if (data) {
+        openModal(data.img, data.title, data.desc);
     }
 }
 
@@ -72,3 +108,4 @@ function copyEmail() {
 
 const currentYear = new Date().getFullYear();
 document.getElementById("year").textContent = currentYear;
+
