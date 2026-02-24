@@ -1,0 +1,41 @@
+sift project:
+            <!-- <div class="project-card hidden" style="transition-delay: 100ms;">
+                <div class="card-image">
+                    <img src="https://placehold.co/600x400/1a1a1a/FFF?text=Sift" alt="Project 3">
+                </div>
+                <div class="card-content">
+                    <h3>Sift</h3>
+                    <p>An AI-powered system that automates technical interviews, evaluates code quality, and provides instant candidate scoring.</p>
+                    <div class="tags">
+                        <span>Python</span><span>React.js</span><span>FastAPI</span><span>scikit-learn</span>
+                    </div>
+                    <br>
+                    <button class="btn primary">USE</button>
+                    <a class="gradient-text">Under development</a>
+                </div>
+            </div> -->
+            
+temp project:
+            <!-- Temp for next projects
+            <div class="project-card hidden" style="transition-delay: 200ms;">
+                <div class="card-image">
+                    <img src="https://placehold.co/600x400/1a1a1a/FFF?text=Nexus+AI" alt="Project 3">
+                </div>
+                <div class="card-content">
+                    <h3>Nexus AI Wrapper</h3>
+                    <p>An intelligent SaaS interface leveraging Large Language Models for automated customer support.</p>
+                    <div class="tags">
+                        <span>Python</span><span>OpenAI API</span><span>Docker</span>
+                    </div>
+                    <a href="#" class="arrow-link">Explore Case Study &rarr;</a>
+                </div>
+            </div> -->
+
+temp cert. :
+                <!-- For later u can directly use it enjoy
+                <div class="cert-item" onclick="openModal('https://placehold.co/800x600/000/fff?text=coming soon', 'soon')">
+                    <img src="https://placehold.co/500x300/555/fff?text=coming soon" alt="Cert">
+                    <div class="overlay">
+                        <span>coming soon</span>
+                    </div>
+                </div> -->
