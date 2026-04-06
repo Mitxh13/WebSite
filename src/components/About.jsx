@@ -30,7 +30,6 @@ function About() {
     'Transformers',
     'PostgreSQL / MongoDB',
     'Git & Linux',
-    'Docker',
   ]
 
   return (

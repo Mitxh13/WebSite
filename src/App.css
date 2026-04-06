@@ -608,7 +608,7 @@
   transform: translateY(-50%);
   font-size: clamp(14rem, 30vw, 24rem);
   font-weight: 900;
-  opacity: 0.04;
+  opacity: 0.15;
   pointer-events: none;
   font-family: var(--font-sans);
   line-height: 1;
@@ -618,7 +618,7 @@
 }
 
 [data-theme="light"] .pj-bg-num {
-  opacity: 0.06;
+  opacity: 0.25;
 }
 
 /* Sidebar — dots & counter */
