@@ -318,6 +318,7 @@ function Projects() {
           <p className="section-label">
             <span className="num">04.</span> Projects
           </p>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>A curated selection of my top work.</p>
 
           <div className="pj-slide" key={activeIndex}>
             <h2 className="pj-name">

@@ -137,6 +137,9 @@ function Certifications() {
                 <span className="num">03.</span> Certifications
               </p>
               <h2 className="section-title">Certificates</h2>
+              <p style={{ color: 'var(--text-secondary)', marginTop: '0.5rem', marginBottom: '2rem' }}>
+                Industry-recognized certifications. <em>Click any card to view the full certificate.</em>
+              </p>
             </div>
 
             <div className="cert-grid">
