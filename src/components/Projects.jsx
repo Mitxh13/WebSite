@@ -71,6 +71,30 @@ const PROJECTS = [
     live:  'https://nanopesu.pages.dev/',
     color: '#a78bfa',
   },
+  {
+    num: '04',
+    name: 'SUP',
+    underDev: false,
+    tagline: 'Open-Source Cross-Platform CLI Intrusion Detection System',
+    description:
+      'A lightweight, real-time Intrusion Detection System built in Python that monitors system logs, identifies brute-force attacks, and forwards structured alerts to a Splunk SIEM.',
+    fullDescription: [
+      'SUP (Systemic Undercover Predator) is a cross-platform command-line tool that runs natively on Windows and Linux to continuously monitor authentication and system logs.',
+      'It utilizes a thread-safe sliding-window algorithm to track and identify brute-force attack patterns, such as SSH credential stuffing and privilege escalation attempts, in real-time.',
+      'When an intrusion threshold is met, the system automatically builds and forwards richly structured, CIM-compatible JSON alerts to a Splunk SIEM via the HTTP Event Collector (HEC) API.',
+      '*NOTE: sup-ids is not yet available on PyPI. It will be published as a pip package soon, once a few remaining bugs and optimizations are addressed.',
+    ],
+    features: [
+      'Real-time detection of brute-force and privilege escalation',
+      'Cross-platform compatibility for Windows and Linux',
+      'Sliding-window algorithm for tracking threat attempts',
+      'Splunk HEC integration for structured JSON alerts',
+      'Zero dependencies beyond the Python standard library and requests'
+    ],
+    tags: ['Python', 'Splunk', 'CLI', 'Cybersecurity'],
+    github: 'https://github.com/Mitxh13/SUP',
+    color: '#ed6651',
+  },
 ]
 
 function GithubIcon() {
