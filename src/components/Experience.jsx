@@ -18,6 +18,14 @@ const EXPERIENCE = [
     skills: ['Python'],
   },
   {
+    period: '2025 - Present',
+    role: 'Backend dev',
+    org: 'nano-pesu team',
+    description:
+      'An AI-powered campus assistant for university students — built with a custom RAG pipeline, fine-tuned language model, and a React frontend. \n Website: https://nanopesu.pages.dev',
+    skills: ['Python','LLMs','RAG','APIs','Transformers'],
+  },
+  {
     period: '03-2026',
     role: 'Runner-ups',
     org: 'DeltaTime 3.0 Hackathon',

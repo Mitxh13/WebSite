@@ -49,27 +49,27 @@ const PROJECTS = [
   },
   {
     num: '03',
-    name: 'Nano-PESU',
+    name: 'Elio',
     underDev: true,
-    tagline: 'AI-powered campus assistant',
-    description:
-      'An AI-powered campus assistant for university students — built with a custom RAG pipeline, fine-tuned language model, and a React frontend.',
+    tagline: 'Unified AI Command-Line Interface',
+    description: 'A developer-focused CLI application that unifies multiple AI providers — Anthropic Claude, Google Gemini, and OpenAI ChatGPT — into a single terminal interface.',
     fullDescription: [
-      'Nano PESU is a conversational AI assistant designed specifically for university students. It combines retrieval-augmented generation (RAG) with a fine-tuned language model to answer academic queries with context-aware, accurate responses.',
-      'The system ingests and indexes university documents, course materials, and institutional data into a vector database. When a student asks a question, the RAG pipeline retrieves the most relevant chunks and feeds them alongside the query to the language model for grounded, hallucination-free answers.',
-      'The frontend is a clean React application with real-time streaming responses, conversation history, and JWT-secured authentication. The backend runs on FastAPI calls and LLMs, making the entire system deployable on university infrastructure.',
+      'Elio eliminates context-switching by unifying Claude, Gemini, and ChatGPT into a single, authenticated terminal hub.',
+      'The application features a Textual-based TUI with real-time streaming, persistent local session history via SQLite, and seamless file upload support for images and documents.',
+      'Built securely with Python, Elio manages credentials via OS-level keyrings and translates interactions through dynamic provider adapters.'
     ],
     features: [
-      'Custom RAG pipeline with vector search',
-      'Real-time streaming chat interface',
-      'JWT authentication & session management',
-      'Document ingestion & indexing system',
-      'Conversation history & context memory',
+      'Unified conversation interface for Claude, Gemini, and GPT',
+      'Rich Terminal UI with Markdown rendering and syntax highlighting',
+      'Interactive model selector and inline slash commands',
+      'Local SQLite session history and Markdown export',
+      'Secure OS keyring credential storage',
+      'Multi-modal support with file and image attachments'
     ],
-    tags: ['React', 'Python', 'FastAPI','Transformers', 'RAG'],
-    // github: 'https://github.com/yourusername/nano-pesu',
-    live:  'https://nanopesu.pages.dev/',
-    color: '#a78bfa',
+    tags: ['Python', 'Textual', 'SQLite', 'CLI'],
+    // github: '#',
+    // live: '#',
+    color: '#0ea5e9'
   },
   {
     num: '04',
