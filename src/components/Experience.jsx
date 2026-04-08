@@ -21,8 +21,12 @@ const EXPERIENCE = [
     period: '2025 - Present',
     role: 'Backend dev',
     org: 'nano-pesu team',
-    description:
-      'An AI-powered campus assistant for university students — built with a custom RAG pipeline, fine-tuned language model, and a React frontend. \n Website: https://nanopesu.pages.dev',
+    description: (
+      <>
+        An AI-powered campus assistant for university students — built with a custom RAG pipeline, fine-tuned language model, and a React frontend. <br />
+        <a href="https://nanopesu.pages.dev" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', textUnderlineOffset: '4px', marginTop: '0.25rem', display: 'inline-block', fontWeight: 500 }}>Website: https://nanopesu.pages.dev</a>
+      </>
+    ),
     skills: ['Python','LLMs','RAG','APIs','Transformers'],
   },
   {
@@ -32,6 +36,18 @@ const EXPERIENCE = [
     description:
       '"Death Is Not The End" serves as the core mechanic of this 16-hour Unity puzzle-platformer. In Our game, every failure spawns a ghost that replays your exact movements in a loop — turning past deaths into a team that presses switches and blocks lasers to clear the path forward.',
     skills: ['C#', 'Unity'],
+  },
+  {
+    period: '2026 — Present',
+    role: 'Founder',
+    org: 'Elio-labs',
+    description: (
+      <>
+        Building a developer-focused CLI that unifies Claude, Gemini, and ChatGPT into a single terminal interface with seamless model switching, file uploads, and local session history. <br />
+        <a href="https://github.com/Elio-labs" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', textUnderlineOffset: '4px', marginTop: '0.25rem', display: 'inline-block', fontWeight: 500 }}>GitHub: https://github.com/Elio-labs</a>
+      </>
+    ),
+    skills: ['Python', 'Textual', 'SQLite', 'CLI'],
   },
 ]
 
