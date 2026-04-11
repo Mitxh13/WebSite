@@ -11,7 +11,7 @@ const EXPERIENCE = [
   },
   {
     period: '2024',
-    role: 'Rank 80',
+    role: 'Top 10',
     org: 'PESU-GCC Hackathon',
     description:
       'Contributed to several open-source projects including documentation improvements, bug fixes, and feature implementations across web and data science ecosystems.',
