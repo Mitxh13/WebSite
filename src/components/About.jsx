@@ -52,9 +52,9 @@ function About() {
                 turning them real.
               </p>
               <p>
-                Right now I'm deep in building <span className="hl">Helium — an AI/OS-driven project</span>. Alongside that, Nano Pesu 
-                and Vesper are two other AI-native projects I'm actively shipping — each one pushing
-                me to think harder about how intelligence gets embedded into software at the OS level. 
+                Right now I'm deep in building <span className="hl">Helium — an AI-driven project</span>. Alongside that,
+                Vesper-Agent and Elio are two other AI-native projects I'm actively shipping — each one pushing me to think 
+                harder about how intelligence is seamlessly integrated into modern software architectures.
               </p>
               <p>
               Outside academics I engage in gaming, cricket, and actively exploring emerging technologies to stay current with the tech landscape.
